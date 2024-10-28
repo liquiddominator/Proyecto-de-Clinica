@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Médico Femenino - Dra. Teresa Escalante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.svg" alt="Centro Médico Femenino" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#especialidades">Especialidades</a></li>
+                                <li><a class="dropdown-item" href="#examenes">Exámenes y Procedimientos</a></li>
+                                <li><a class="dropdown-item" href="#emergencias">Emergencias</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#equipo">Nuestro Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pacientes">Pacientes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                    <a href="contacto.html#cita" class="btn btn-primary ms-3">Agendar Cita</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero d-flex align-items-center min-vh-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 fw-bold mb-4">Cuidado integral de la salud femenina</h1>
+                        <p class="lead mb-4">En el Centro Médico Femenino, la Dra. Teresa Escalante y su equipo ofrecen atención especializada en ginecología, obstetricia y salud integral de la mujer.</p>
+                        <a href="#cita" class="btn btn-primary btn-lg">Agenda tu consulta</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="doctor-hero.svg" alt="Dra. Teresa Escalante" class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="especialidades" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Nuestras Especialidades</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="fas fa-female fa-3x text-primary mb-3"></i>
+                                <h5 class="card-title">Ginecología y Obstetricia</h5>
+                                <p class="card-text">Cuidado integral de la salud femenina en todas las etapas de la vida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="fas fa-apple-alt fa-3x text-primary mb-3"></i>
+                                <h5 class="card-title">Nutrición</h5>
+                                <p class="card-text">Asesoramiento nutricional personalizado para una vida saludable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="fas fa-brain fa-3x text-primary mb-3"></i>
+                                <h5 class="card-title">Psicología</h5>
+                                <p class="card-text">Apoyo emocional y terapia para el bienestar mental.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="fas fa-stethoscope fa-3x text-primary mb-3"></i>
+                                <h5 class="card-title">Medicina General</h5>
+                                <p class="card-text">Atención médica general para el cuidado preventivo y tratamiento de enfermedades comunes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="examenes" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Exámenes y Procedimientos</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Mamografía</h5>
+                                <p class="card-text">Detección temprana de cáncer de mama con tecnología de última generación.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Ecografía Obstétrica</h5>
+                                <p class="card-text">Seguimiento detallado del desarrollo fetal durante todo el embarazo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Colposcopía</h5>
+                                <p class="card-text">Examen detallado del cuello uterino para la detección de anomalías.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="emergencias" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Servicio de Emergencias</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="emergencias.jpg" alt="Servicio de Emergencias" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Atención inmediata 24/7</h3>
+                        <p>Nuestro servicio de emergencias está disponible las 24 horas del día, los 7 días de la semana, para atender cualquier urgencia ginecológica u obstétrica.</p>
+                        <ul>
+                            <li>Personal médico especializado</li>
+                            <li>Equipamiento de última generación</li>
+                            <li>Protocolos de atención rápida y eficiente</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Nuestro Equipo Médico</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 shadow-sm">
+                            <img src="dra-escalante.jpg" class="card-img-top" alt="Dra. Teresa Escalante">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dra. Teresa Escalante</h5>
+                                <p class="card-text">Ginecología y Obstetricia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 shadow-sm">
+                            <img src="nutricionista.jpg" class="card-img-top" alt="Nutricionista">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Lic. Ana Martínez</h5>
+                                <p class="card-text">Nutrición</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 shadow-sm">
+                            <img src="psicologa-raitza.jpg" class="card-img-top" alt="Psicóloga Raitza Arroyo">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Lic. Raitza Arroyo</h5>
+                                <p class="card-text">Psicología</p>
+                                <p class="card-text"><small class="text-muted">Especialista en terapia individual para adolescentes y adultos</small></p>
+                                <a href="psicologa-raitza-arroyo.html" class="btn btn-primary btn-sm">Ver servicios</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 shadow-sm">
+                            <img src="medico-general.jpg" class="card-img-top" alt="Médico General">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Dr. Carlos Rodríguez</h5>
+                                <p class="card-text">Medicina General</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pacientes" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Información para Pacientes</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <h4>Preparación para su visita</h4>
+                        <ul>
+                            <li>Traiga su identificación y tarjeta de seguro</li>
+                            <li>Liste sus medicamentos actuales</li>
+                            <li>Prepare sus preguntas para el médico</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Derechos del Paciente</h4>
+                        <ul>
+                            <li>Atención respetuosa y digna</li>
+                            <li>Confidencialidad de la información médica</li>
+                            <li>Participación en las decisiones de tratamiento</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Recursos en Línea</h4>
+                        <ul>
+                            <li><a href="#">Portal del Paciente</a></li>
+                            <li><a href="#">Educación para la Salud</a></li>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Sobre Nosotros</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Nuestra Misión</h3>
+                        <p>Proporcionar atención médica integral y de alta calidad a las mujeres en todas las etapas de su vida, con un enfoque en la prevención, el diagnóstico temprano y el tratamiento personalizado.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Nuestra Visión</h3>
+                        <p>Ser reconocidos como el centro de referencia en salud femenina, destacando por nuestra excelencia médica, innovación tecnológica y atención centrada en la paciente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Centro Médico Femenino - Dra. Teresa Escalante. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3">Política de privacidad</a>
+                    <a href="#" class="text-white">Términos de uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
